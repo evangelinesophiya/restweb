@@ -151,6 +151,7 @@ menu.html
   </footer>
 </body>
 </html>
+people.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -190,6 +191,209 @@ menu.html
   </footer>
 </body>
 </html>
+contact.css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #ffeedd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+people.css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.people-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.person-card {
+  background-color: #ffeedd;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.person-card img {
+  width: 100%;
+  border-radius: 50%;
+}
+style.css
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  height: 80px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 3px;
+}
+
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.banner {
+  background: url('pasta.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: left;
+  padding: 60px 30px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.banner h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffeedd;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+}
+
 
 ~~~
 
